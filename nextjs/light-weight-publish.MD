@@ -21,7 +21,7 @@ const copy = (src, dest) => {
 };
 
 copy("./public", "./.next/standalone/public");
-copy("./.next/static", "./.next/standalone/static");
+copy("./.next/static", "./.next/standalone/.next/static");
 copy("./web.config", "./.next/standalone/web.config");
 ```
 
